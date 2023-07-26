@@ -1,9 +1,14 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 import * as awsx from "@pulumi/awsx";
+import { createBucket } from "./s3-bucket/mybucket"
+import { MyVpc } from "./vpc/myvpc"; 
 
-// Create an AWS resource (S3 Bucket)
-const bucket = new aws.s3.Bucket("my-bucket");
 
-// Export the name of the bucket
-export const bucketName = bucket.id;
+// const vpc_network = new MyVpc(); 
+
+// vpc_network.createVpc() 
+
+
+
+
