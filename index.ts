@@ -6,7 +6,6 @@ import { MyVpc } from "./vpc/myvpc";
 import { createEksCluster } from "./eks/eks-file"; 
 
 
-
 // const vpc_network = new MyVpc(); 
 
 // vpc_network.createVpc() 
